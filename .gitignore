@@ -1,0 +1,42 @@
+# Environment variables (NEVER COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+dashboard/.env
+dashboard/.env.*
+!.env.example
+!dashboard/.env.example
+
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Production builds
+dashboard/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Temporary scraping / scratch artifacts (PDFs, downloaded htmls, extracted images)
+*.pdf
+*.jpg
+*.jpeg
+*.png
+detail_*.html
+licitaciones_sanjuan.html
